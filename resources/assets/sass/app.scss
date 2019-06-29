@@ -1,0 +1,13 @@
+//Import Core-UI and required vendors
+@import '~@coreui/icons/scss/coreui-icons';
+// @import '~flag-icon-css/sass/flag-icon';
+@import '~font-awesome/scss/font-awesome.scss';
+@import '~simple-line-icons/scss/simple-line-icons.scss';
+@import '~@coreui/coreui/scss/coreui';
+//TODO @import pace-progress (??????)
+
+// Variables
+@import "variables";
+
+//Custom stylesheet
+@import "custom";

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: 400;
+}
+
+footer {
+	margin-top: 1.5rem;
+}
+
+th {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none;/* Non-prefixed version, currently supported by Chrome and Opera */
+	cursor: default;
+}
+
+label {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none;/* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.hide {
+	display: none;
+}
+
+.sidebar .nav .nav-item .nav-link:hover, .sidebar .nav .nav-item .navbar .dropdown-toggle:hover, .navbar .sidebar .nav .nav-item .dropdown-toggle:hover {
+	transition: background 0.2s ease;
+}
+
+.sidebar-toggler {
+	cursor: pointer;
+	user-select: none;
+}
+
+
+.breadcrumb {
+	margin-bottom: 0;
+	padding: 0.2rem 1rem;
+}
+
+.table-hover tbody tr:hover{
+	background-color: #9AD1DD;
+	transition: background-color 0.2s ease;
+}
+
+.tabs{
+	position: relative;
+	margin-bottom: 1.5rem;
+	border-bottom: 1px solid #cfd8dc;
+
+	padding: 0.75rem 1rem;
+	margin-bottom: 1rem;
+	list-style: none;
+	background-color: #fff;
+
+	.nav-tabs {
+		border-bottom: 0;
+	}
+
+	.nav-item {
+		cursor: pointer;
+	}
+
+	.nav-link {
+		border-radius: 0px;
+		border:1px solid transparent;
+
+		&:hover {
+			border-color: #cfd8dc #cfd8dc #ddd;
+		}
+
+		&.active {
+			border: none;
+			background: #46ACC2;
+			color: #fff;
+			height: 39px;
+			margin-top:0;
+
+			&:hover {
+				color: #fff;
+			}
+		}
+	}
+}
+
+.favorite-star
+{
+	cursor: pointer;
+	color: $warning;
+
+		&:hover {
+			color: #ccab1a;
+		}
+}
+
+#procedures {
+	h5 {
+		background: #DAE4EE;
+		padding: .6rem .2rem;
+	}
+}
+
+.badge-chart-tag {
+		font-size: .7rem;
+    margin: 3px;
+}
+
+.thead-inverse th {
+    color: #e4e5e6;
+    background-color: #263238;
+}
