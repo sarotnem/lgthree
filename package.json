@@ -13,7 +13,7 @@
     "@coreui/coreui": "2.0.0",
     "@coreui/coreui-plugin-chartjs-custom-tooltips": "1.2.0",
     "@coreui/icons": "^0.1.1",
-    "axios": "^0.18",
+    "axios": "^0.21",
     "bootstrap": "4.1.1",
     "chart.js": "^2.7.2",
     "cross-env": "^5.1",
